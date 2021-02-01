@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/ic_home_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_title_bar" />
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/srl_plaza_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.shehuan.niv.NiceImageView
+                    android:id="@+id/niv_plaza_type_top_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_margin="@dimen/dp_10"
+                    android:scaleType="centerCrop"
+                    app:corner_radius="@dimen/dp_10"
+                    android:src="@mipmap/ic_default_pic" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_plaza_type"
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_50"
+                        android:src="@mipmap/ic_plaza_basketball_cba" />
+
+                    <TextView
+                        android:id="@+id/tv_plaza_state"
+                        android:layout_width="@dimen/dp_55"
+                        android:layout_height="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginBottom="@dimen/dp_4"
+                        android:background="@drawable/shape_0090ec_10"
+                        android:gravity="center"
+                        android:text="@string/followed"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_10" />
+
+                    <TextView
+                        android:id="@+id/tv_plaza_top_content"
+                        android:layout_width="@dimen/dp_55"
+                        android:layout_height="@dimen/dp_16"
+                        android:gravity="center"
+                        android:text="加油中国足球"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dp_10" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/niv_plaza_type_top_bg">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rlv_plaza_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <include layout="@layout/layout_view_no_data" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_issue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp_300"
+        android:background="@drawable/shape_009afc_15_left"
+        android:paddingLeft="@dimen/dp_27"
+        android:paddingTop="@dimen/dp_6"
+        android:paddingRight="@dimen/dp_19"
+        android:paddingBottom="@dimen/dp_6"
+        android:text="@string/issue"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12" />
+
+</RelativeLayout>

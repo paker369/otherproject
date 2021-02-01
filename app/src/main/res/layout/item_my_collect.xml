@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_9"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_135"
+        android:layout_marginLeft="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_14"
+        android:background="@drawable/shape_1e2930_7">
+
+        <LinearLayout
+            android:id="@+id/llt_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.example.zhugeyouliao.widget.CircleImageView
+                android:id="@+id/civ_collect_header"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:layout_marginRight="@dimen/dp_6"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/tv_collect_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="老周红单推荐"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_8" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_collect_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llt_top"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_toLeftOf="@+id/niv_collect_img"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="名记曝猛龙有意哈登！1.3亿先生恐成筹码，莱昂纳德故事重演？"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_collect_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_collect_title"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_3"
+            android:layout_toLeftOf="@+id/niv_collect_img"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="火箭与猛龙关于哈登交易的筹码要求可能会提高，筹码包括猛龙的年轻核心球员西亚卡姆、猛龙今年的首轮秀弗林以及大量的选秀权。不过文霍斯..."
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_8" />
+
+        <com.shehuan.niv.NiceImageView
+            android:id="@+id/niv_collect_img"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_75"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_23"
+            android:layout_marginRight="@dimen/dp_14"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:src="@mipmap/ic_launcher" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_below="@+id/niv_collect_img"
+            android:background="@color/color_11ffffff" />
+
+        <TextView
+            android:id="@+id/tv_collect_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp_18"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:text="2021-01-25 12：25"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_8" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dp_14"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_collect_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_collect_like"
+                android:drawablePadding="@dimen/dp_3"
+                android:paddingLeft="@dimen/dp_6"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingRight="@dimen/dp_6"
+                android:paddingBottom="@dimen/sp_8"
+                android:text="9987"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_8" />
+
+            <TextView
+                android:id="@+id/tv_collect_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_collect_comment"
+                android:drawablePadding="@dimen/dp_3"
+                android:paddingLeft="@dimen/dp_6"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingRight="@dimen/dp_6"
+                android:paddingBottom="@dimen/sp_8"
+                android:text="9987"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_8" />
+
+            <TextView
+                android:id="@+id/tv_collect_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_collect_read"
+                android:drawablePadding="@dimen/dp_3"
+                android:paddingLeft="@dimen/dp_6"
+                android:paddingTop="@dimen/dp_5"
+                android:paddingRight="@dimen/dp_6"
+                android:paddingBottom="@dimen/sp_8"
+                android:text="9987"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_8" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="@dimen/dp_67"
+        android:layout_height="@dimen/dp_135"
+        android:background="@drawable/shape_cf2a2a_6"
+        android:drawableTop="@mipmap/ic_delete_1"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_50"
+        android:paddingBottom="@dimen/dp_18"
+        android:text="@string/cancel_attention"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_10" />
+
+</LinearLayout>

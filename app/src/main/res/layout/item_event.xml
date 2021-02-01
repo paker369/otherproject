@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_92"
+    android:layout_marginLeft="@dimen/dp_5"
+    android:layout_marginTop="@dimen/dp_6"
+    android:layout_marginRight="@dimen/dp_5"
+    android:background="@drawable/shape_white_10">
+
+    <com.shehuan.niv.NiceImageView
+        android:id="@+id/niv_event_img"
+        android:layout_width="@dimen/dp_112"
+        android:layout_height="@dimen/dp_73"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_18"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_login_bg"
+        app:corner_radius="@dimen/dp_6" />
+
+    <TextView
+        android:id="@+id/tv_event_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_19"
+        android:layout_toRightOf="@+id/niv_event_img"
+        android:gravity="right"
+        android:singleLine="true"
+        android:text="积分积累 ，让运动更富激情"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_15" />
+
+    <TextView
+        android:id="@+id/tv_event_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/dp_29"
+        android:layout_marginBottom="@dimen/dp_13"
+        android:text="2020-01-15 17:45"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_10" />
+
+
+</RelativeLayout>

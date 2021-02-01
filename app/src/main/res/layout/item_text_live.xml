@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_6"
+    android:layout_marginBottom="@dimen/dp_6">
+
+    <RelativeLayout
+        android:id="@+id/rlt_left"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_5"
+        android:background="@drawable/shape_181f24">
+
+        <ImageView
+            android:id="@+id/iv_text_live_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_football_text_vs" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_text_live"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_7"
+        android:layout_toRightOf="@+id/rlt_left"
+        android:background="@drawable/shape_181f24_8"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_13"
+        android:text="大家好，欢迎收看本场比赛直播，球员们正在热身
+比赛即将开始！"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12"
+        android:paddingRight="@dimen/dp_13" />
+
+</RelativeLayout>

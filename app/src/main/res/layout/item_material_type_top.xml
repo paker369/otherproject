@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="77dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_10"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dp_5"
+    android:layout_marginRight="@dimen/dp_3"
+    android:orientation="vertical">
+
+    <com.example.zhugeyouliao.widget.CircleImageView
+        android:id="@+id/civ_material_type_top_img"
+        android:layout_width="@dimen/dp_52"
+        android:layout_height="@dimen/dp_52"
+        android:layout_marginTop="@dimen/dp_11"
+        android:layout_marginBottom="@dimen/dp_9"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tv_material_type_top_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="李老八电竞"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_10" />
+
+    <TextView
+        android:id="@+id/tv_material_type_top_fans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_people_num"
+        android:text="383"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_9" />
+
+    <TextView
+        android:id="@+id/tv_material_type_top_win_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/win_rate_2"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_9" />
+
+</LinearLayout>

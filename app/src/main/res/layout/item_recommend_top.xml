@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_178"
+        android:paddingLeft="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_6"
+        android:paddingRight="@dimen/dp_8"
+        app:banner_radius="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_58"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginRight="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_11"
+        android:background="@drawable/home_recomment_model"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rlt_basketball"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_basketball"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:drawableTop="@mipmap/ic_home_recommend_basketball"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_14"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_14"
+                android:text="@string/basketball"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlt_football"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_football"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/home_recommend_model_click"
+                android:drawableTop="@mipmap/ic_home_recommend_football"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_14"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_14"
+                android:text="@string/football"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlt_electronic_sports"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_electronic_sportsv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:drawableTop="@mipmap/ic_home_recommend_electronic_sports"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_14"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_14"
+                android:text="@string/electronic_sports"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlt_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:drawableTop="@mipmap/ic_home_recommend_activity"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_14"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_14"
+                android:text="@string/activity"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlt_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:drawableTop="@mipmap/ic_home_recommend_more"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_14"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_14"
+                android:text="@string/more"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_10" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hot_contest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:background="@mipmap/ic_recommend_hot_contest"
+        android:drawableLeft="@mipmap/ic_recommend_hot"
+        android:drawablePadding="@dimen/dp_3"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_6"
+        android:text="@string/hot_contest"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_15"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_recommend_hot_contest"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_marginRight="@dimen/dp_6">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rlv_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_league_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_7"
+        android:background="@drawable/shape_16000000_15"
+        android:paddingLeft="@dimen/dp_19"
+        android:paddingTop="@dimen/dp_4"
+        android:paddingRight="@dimen/dp_19"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:paddingBottom="@dimen/dp_4"
+        android:text="@string/all"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>

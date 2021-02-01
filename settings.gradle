@@ -1,0 +1,5 @@
+include ':app'
+include("picture_library")
+include("ucrop")
+include("tab_library")
+rootProject.name='ZhuGeYouLiao'

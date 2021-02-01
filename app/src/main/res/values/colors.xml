@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="theme">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_10ffffff">#1AFFFFFF</color>
+    <color name="color_11ffffff">#1CFFFFFF</color>
+    <color name="color_48ffffff">#7AFFFFFF</color>
+    <color name="color_22ffffff">#38FFFFFF</color>
+    <color name="view_line">#EEEEEE</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_B3B3B3">#B3B3B3</color>
+    <color name="color_0090EC">#0090EC</color>
+    <color name="color_232B33">#232B33</color>
+    <color name="color_707070">#707070</color>
+    <color name="color_FF8902">#FF8902</color>
+    <color name="color_10FF8902">#1AFF8902</color>
+    <color name="color_FF143C">#FF143C</color>
+    <color name="color_1E2930">#1E2930</color>
+    <color name="color_00FF66">#00FF66</color>
+    <color name="color_FFFF00">#FFFF00</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_FFD500">#FFD500</color>
+    <color name="color_202020">#202020</color>
+    <color name="color_1A2126">#1A2126</color>
+    <color name="color_5A3D45">#5A3D45</color>
+    <color name="color_009AFC">#009AFC</color>
+    <color name="color_FFEE00">#FFEE00</color>
+    <color name="color_F7FF00">#F7FF00</color>
+    <color name="color_2F3538">#2F3538</color>
+    <color name="color_16000000">#29000000</color>
+    <color name="color_181F24">#181F24</color>
+    <color name="color_FFE400">#FFE400</color>
+    <color name="color_0089FF">#0089FF</color>
+    <color name="color_CF2A2A">#CF2A2A</color>
+    <color name="color_C2C2C2">#C2C2C2</color>
+    <color name="color_4D1CF2">#4D1CF2</color>
+    <color name="color_000C30">#000C30</color>
+    <color name="color_AFAFAF">#AFAFAF</color>
+    <color name="color_FF903B">#FF903B</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+
+</resources>

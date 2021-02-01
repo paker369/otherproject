@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">诸葛有料</string>
+
+    <string name="account_login">账号登录</string>
+    <string name="verification_code_login">验证码登录</string>
+    <string name="edt_account">请输入账号</string>
+    <string name="edt_phone">请输入手机号码</string>
+    <string name="edt_password">请输入密码</string>
+    <string name="edt_password_lenght">密码长度6~20位</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="edt_verification_code">请输入短信验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+
+
+    <string name="mian_home">主页</string>
+    <string name="main_competition">赛事推荐</string>
+    <string name="main_material">诸葛密料</string>
+    <string name="main_community">社区</string>
+    <string name="main_mine">我的</string>
+    <string name="click_exit">再按一次退出程序</string>
+    <string name="recommend">推荐</string>
+    <string name="red_people">红人</string>
+    <string name="basketball">篮球</string>
+    <string name="football">足球</string>
+    <string name="electronic_sports">电竞</string>
+    <string name="activity">活动</string>
+    <string name="more">更多</string>
+    <string name="hot">热门</string>
+    <string name="great_god_to_explain">大神讲解中</string>
+    <string name="plaza">广场</string>
+    <string name="click_pulish_commment">点击发表评论</string>
+    <string name="pulish_commment">发表评论</string>
+    <string name="hot_contest">热门比赛</string>
+    <string name="win_rate">中单率</string>
+    <string name="win_rate_2">中单率：</string>
+    <string name="fans_notice">粉丝榜</string>
+    <string name="win_rate_notice">胜率榜</string>
+    <string name="warm_prompt">温馨提示</string>
+    <string name="is_login">您还没有登录，是否去登录?</string>
+    <string name="is_delete">确定删除吗?</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="attention">关注</string>
+    <string name="cancel_attention">取消关注</string>
+    <string name="followed">已关注</string>
+    <string name="unfollowed">未关注</string>
+    <string name="fans_num">粉丝数：</string>
+    <string name="win_rate_num">胜率：</string>
+    <string name="win_rate_1">胜率</string>
+    <string name="no_data">暂无数据</string>
+    <string name="matches">赛事预测</string>
+    <string name="text_live">文字直播</string>
+    <string name="contest_video">比赛视频</string>
+    <string name="issue">发布</string>
+    <string name="recent_record">双方近期战绩</string>
+
+    <string name="underway">进行中</string>
+    <string name="finished">已结束</string>
+    <string name="not_start">未开赛</string>
+
+    <string name="postpone">推迟</string>
+    <string name="interrupt">中断</string>
+    <string name="cut_at_waist">腰斩</string>
+    <string name="undetermined">待定</string>
+    <string name="delete">已删除</string>
+
+    <string name="electronic_sports_details">电竞赛事详情</string>
+    <string name="basketball_details">篮球赛事详情</string>
+    <string name="football_details">足球赛事详情</string>
+    <string name="history_cross_swords">历史交锋</string>
+    <string name="five">近5场</string>
+    <string name="ten">近10场</string>
+    <string name="victory">胜</string>
+    <string name="defeat">负</string>
+    <string name="competition">赛事</string>
+    <string name="date">日期</string>
+    <string name="team">战队</string>
+    <string name="score">比分</string>
+    <string name="home_team">主队</string>
+    <string name="guest_team">客队</string>
+    <string name="all">全部</string>
+    <string name="home_count">主场</string>
+    <string name="guest_count">客场</string>
+    <string name="league">联赛</string>
+    <string name="marginal_data">图例说明</string>
+    <string name="corner_ball">角球</string>
+    <string name="goal">入球</string>
+    <string name="penalty_kick">点球</string>
+    <string name="wulong_ball">乌龙球</string>
+    <string name="yellow_card">黄牌</string>
+    <string name="red_card">红牌</string>
+    <string name="two_yellow_card">两黄变人</string>
+    <string name="substitution">换人</string>
+    <string name="Instant_score">即时比分</string>
+    <string name="full_time">已完场</string>
+    <string name="edt_search">请输入搜索关键词</string>
+    <string name="mine_collect">我收藏的文章</string>
+    <string name="mine_send">我发布的分析</string>
+    <string name="mine_gambit">我参与的话题</string>
+    <string name="mine_pulish_gambit">我发布的话题</string>
+    <string name="mine_attention">我关注的大神</string>
+    <string name="edt_personal_info">编辑资料</string>
+    <string name="header">头像</string>
+    <string name="save">保存</string>
+    <string name="update_nickname">修改昵称</string>
+    <string name="update_sign">修改个性签名</string>
+    <string name="hint_nickname">昵称支持中文，字母和数字组合。4-20字符</string>
+    <string name="hint_sign">请在此处输入个性签名 ，最多20字符</string>
+    <string name="plaze_unlogin_show">新关注的版块会显示在最前面</string>
+    <string name="please_login_first">请先登录</string>
+    <string name="plaza_football">足球风云</string>
+    <string name="plaza_basketball">篮球风云</string>
+    <string name="plaza_game">电竞游戏</string>
+    <string name="plaza_chat">闲聊注水</string>
+    <string name="plaza_comprehensive_sports">综合体育</string>
+    <string name="plaza_administratives">站务管理</string>
+    <string name="plaza_disclose">产品吐槽</string>
+
+    <string name="plaza_china_football">中国足球</string>
+    <string name="plaza_international_football">国际足球</string>
+    <string name="plaza_european_cup">欧冠杯</string>
+    <string name="plaza_league">五大联赛</string>
+
+    <string name="plaza_basketball_nba">NBA专区</string>
+    <string name="plaza_basketball_cba">CBA专区</string>
+    <string name="plaza_basketball_hj">火箭专区</string>
+    <string name="plaza_basketball_hr">湖人专区</string>
+
+    <string name="plaza_game_news">电竞新闻</string>
+    <string name="plaza_game_lol">LOL专区</string>
+    <string name="plaza_game_dota">DOTA专区</string>
+    <string name="plaza_game_cs">CS GO专区</string>
+
+    <string name="plaza_chat_live">恋爱吧</string>
+    <string name="plaza_chat_pet_dating">宠物交友</string>
+    <string name="plaza_chat_freshman">小白求问</string>
+    <string name="plaza_chat_news">八卦新闻</string>
+
+    <string name="plaza_comprehensive_sports_wwe">WWE</string>
+    <string name="plaza_comprehensive_sports_badminton">羽毛球专区</string>
+    <string name="plaza_comprehensive_sports_freshman">小白求问</string>
+    <string name="plaza_comprehensive_sports_f1">F1赛车</string>
+
+    <string name="plaza_administratives_disclose">产品吐槽</string>
+    <string name="plaza_administratives_opinion">意见与建议</string>
+
+    <string name="plaza_disclose_prefecture">产品吐槽专区</string>
+
+    <string name="halfScore">半场</string>
+    <string name="ya">亚</string>
+    <string name="ou">欧</string>
+    <string name="da">大</string>
+
+    <string name="iphone_number_not_null">手机号不能为空！</string>
+    <string name="password_not_null">密码不能为空!</string>
+    <string name="edt_right_phone">请输入正确的手机号!</string>
+
+</resources>

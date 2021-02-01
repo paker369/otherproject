@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_hot_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_28"
+        android:background="@drawable/shape_5a3d45_6"
+        android:textColor="@color/white"
+        android:text="@string/edt_search"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/ic_community_search"
+        android:paddingLeft="@dimen/dp_8"
+        android:drawablePadding="@dimen/dp_8"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <include layout="@layout/layout_refresh"/>
+
+</LinearLayout>
